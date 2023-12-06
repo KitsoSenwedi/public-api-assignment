@@ -4,23 +4,29 @@
 
 This project integrates data from a chosen API( Use the JokeAPI to Create a website that gives the user a joke based on their name. ) into a web application using Express.js and Axios.
 
-## How to Start
+## Project Setup
 
-1. Create a new directory for your project:
-   mkdir express-api-project
-  cd express-api-project
+# Create a new Node.js project
+npm init -y
 
-2. Initialize a new Node.js project:
-  npm init -y
+# Install necessary dependencies
+npm install express axios ejs
 
+# Create project files and directories
+touch index.js
+mkdir views public
+touch views/index.ejs public/style.css
 
-3. Install necessary packages:
-  npm install express axios ejs
+# Set up basic project structure
 
-4. Create the project structure:
-  /express-api-project
-  |- /views
-      |- index.ejs
-  |- index.js
-  |- package.json
-  |- Readme.md
+##Project Structure
+
+- /your_project_name
+  - index.js
+  - /public
+    - style.css
+  - /views
+    - index.ejs
+  - /node_modules
+  - package.json
+  - Readme.md
